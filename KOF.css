@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin:0;
+
+}
+div{
+	display : inline-block;
+	position : absolute;
+}
+
+#frame{
+	border : 1px solid black;
+	position : absolute;
+	left : 150px;
+	top : 80px;
+	width : 1000px;
+	height : 600px;
+	background-image: url(bg10.jpg);
+background-size: 100% 100%;
+}
+#win{
+	width : 280px;
+	height : 100px;
+	top : 80px;
+	left : 260px;
+	text-align: center;
+	color :#fa0;
+	font-size: 80px;
+	line-height: 100px;
+	display : none;
+	/*background-color:red;*/
+}
+#frame
+.person{
+	width : 200px;
+	height: 200px;
+	/*border : 1px solid red;*/
+	position : absolute;
+	bottom:10px;
+	background-size: 100% 100%;
+}
+#person1{
+	background-image: url(person1/stand.gif);
+	left : 50px;
+/*	transform: rotateY(180deg);*/
+}
+#person2{
+	background-image: url(person2/stand.gif);
+	left : 700px;
+	transform: rotateY(180deg);
+}
+.head{
+	width : 100px;
+	height : 100px;
+	border-radius: 50%;
+	
+	position : absolute;
+	top : 20px;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+
+.head1{
+	left : 20px;
+	background-image: url(person1/head.jpg);
+}
+.head2{
+	background-image: url(person2/head.gif);
+	right : 20px;
+}
+.blood_bg{
+	top : 50px;
+	left : 100px;
+	width : 800px;
+	height : 40px;
+	background-color: gray;
+	opacity: 0.8;
+
+
+}
+.blood{
+	width : 350px;
+	height : 20px;
+	background-color: #0f0;
+	top :10px;
+	z-index: 0;
+
+
+
+}
+.blood1{
+	left:0px;
+}
+.blood2{
+	right:0px;
+}
+#time{
+	width : 120px;
+	height : 100px;
+	background-color: yellow;
+	left : 340px;
+	top : -25px;
+	background-image: url(time.jpg);
+	background-size: 100% 100%;
+	border-radius: 30%;
+	text-align: center;
+	font-size: 40px;
+	color :red ;
+	line-height :100px;
+	/*transform: rotate(90deg);*/
+	/*vertical-align: center;*/
+
+}
