@@ -1,3 +1,4 @@
+﻿//git测试修改
 var timeShow = document.getElementById('time');
 var person1 = document.getElementById('person1'),
 	person2 = document.getElementById('person2'),
